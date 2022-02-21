@@ -1,3 +1,16 @@
+# Leading Reach Notes
+
+## why
+
+- package forked from AprilArcus/node-sass#1.33 because SASS 1.32+ throws errors about deprecated division operators, who had already done most of the work
+- build did not work with yarn
+
+## modifications made
+- node-sass updated to 7 from 4 which has prebuilt-binaries
+
+## directions for package building 
+- `yarn pack --out %s-v%v.tgz`
+
 # Bootstrap 3 for Sass
 [![Gem Version](https://badge.fury.io/rb/bootstrap-sass.svg)](http://badge.fury.io/rb/bootstrap-sass)
 [![npm version](https://img.shields.io/npm/v/bootstrap-sass.svg?style=flat)](https://www.npmjs.com/package/bootstrap-sass)
